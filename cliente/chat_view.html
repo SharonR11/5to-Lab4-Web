@@ -650,9 +650,7 @@
     }
 
     socket.on('chat', (msg) => {
-        // Crea un nuevo elemento div para el mensaje y agrégalo al contenido
         const item = document.createElement('div');
-        
         item.classList.add('right');
         item.innerHTML = `
             <div class="author-name">Sharon</div>
